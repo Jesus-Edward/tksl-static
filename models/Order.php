@@ -57,8 +57,8 @@ return mysqli_fetch_all($result, MYSQLI_ASSOC);
     {
         $sql = "INSERT INTO orders
             (
-                user_id,
                 name,
+                order_number,
                 email,
                 phone,
                 company,
@@ -74,9 +74,9 @@ return mysqli_fetch_all($result, MYSQLI_ASSOC);
 
         mysqli_stmt_bind_param(
             $stmt,
-            "issssssssd",
-            $data['user_id'],
+            "sssssssssd",
             $data['name'],
+            $data['order_number'],
             $data['email'],
             $data['phone'],
             $data['company'],

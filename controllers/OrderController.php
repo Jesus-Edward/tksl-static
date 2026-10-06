@@ -70,8 +70,6 @@ class OrderController
                 exit();
             }
 
-            $user_id = $_SESSION['user_id'];
-
             $productId = (int) $_POST['product_id'];
             $productName = trim($_POST['product_name']);
             $price = (float) $_POST['price'];
@@ -120,6 +118,7 @@ class OrderController
     
                 $orderId = $this->order->create([
                     'name' => $customerName,
+                    'order_number' => null,
                     'email' => $email,
                     'phone' => $phone,
                     'company' => $company,
@@ -128,7 +127,6 @@ class OrderController
                     'country' => $country,
                     'notes' => $notes,
                     'total_amount' => $total,
-                    'user_id' => $user_id
                 ]);
 
                 $order_number = generateOrderNumber($orderId);
@@ -152,7 +150,7 @@ class OrderController
     
                 mysqli_rollback($this->conn);
     
-                $_SESSION['errors'] = ['Unable to submit order.', $e->getMessage()];
+                $_SESSION['errors'] = [$e->getMessage()];
             }
     
             header("Location: " . $_SERVER['HTTP_REFERER']);
