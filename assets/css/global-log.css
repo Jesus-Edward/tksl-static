@@ -1,0 +1,5 @@
+.global-log-section {
+    background-image: url('../imgs/global_logistics_pic.png') !important;
+    /* background-position-y: 10px !important; */
+    /* object-fit: cover !important; */
+}

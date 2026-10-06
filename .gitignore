@@ -1,0 +1,13 @@
+# Composer
+/vendor/
+
+# Environment variables
+.env
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

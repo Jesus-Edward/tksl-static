@@ -1,0 +1,126 @@
+.about-section {
+    background-image: url('../imgs/about_us.png') !important;
+    background-position: -300% !important;
+    object-fit: cover !important;
+}
+
+#industry-focus .card {
+    width: 100% !important;
+    height: 300px !important;
+}
+#industry-focus img {
+    height: 365px !important;
+}
+   
+   .about-section h2 {
+        font-size: 2.5rem !important;
+        font-weight: bold !important;
+    }
+
+    .about-header h1 {
+        font-size: 7rem !important;
+        color: #fff !important;
+    }
+
+    .about-header h1 span {
+        color: #FFEF00 !important;
+    }
+
+    .who-we-are .fa-shield, .who-we-are .fa-gear, .who-we-are .fa-people-group, .who-we-are .fa-list-check, .who-we-are .fa-square-check {
+        color: #00001C !important;
+        font-size: 1.5rem !important;
+    }
+
+    .abt-vis h1 {
+        font-weight: bold;
+    }
+
+    .fa-globe {
+        color: #fff !important;
+        font-size: 2rem !important;
+    }
+
+    .first_card {
+        background-color: #00001C !important;
+    }
+
+    .first_card h4 {
+        color: #fff;
+    }
+
+    .first_card .conn {
+        color: #FFEF00;
+    }
+
+    .card {
+        border-radius: 0 !important;
+        width: 300px !important;
+    } 
+
+    .card2 h4{
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+
+    .card2 .reach h5 {
+        font-weight: bold;
+    }
+
+    .card2 p {
+        font-weight: bold;
+    }
+
+    .third {
+        background-position: center;
+        object-fit: cover;
+    }
+
+    footer .fa-globe {
+        color: #00001C !important;
+    }
+
+
+    @media(max-width: 556px) {
+
+        .about-section {
+            background-position: left center !important;
+        }
+
+        #industry-focus img {
+            height: 70% !important;
+        }
+
+        .hero-details {
+            width: 100% !important;
+        }
+        .hero-details h1 {
+            font-size: 6rem !important;
+        }
+
+        .who-we-are .sec-div {
+            display: block !important;
+        }
+        
+        .abt-vis {
+            width: 100% !important;
+        }
+        .card-div {
+            display: block !important;
+            margin-top: 20px !important;
+        }
+
+        .card {
+            width: 100% !important;
+        }
+
+        .vision {
+            display: block !important;
+        }
+
+        .wcu-img {
+            width: 100% !important;
+        }
+        .wch-row {
+            width: 100% !important;
+        }
+    }

@@ -1,0 +1,131 @@
+:root {
+    --navy: #00001c;
+    --navy-dark: #00001c;
+    --gold: #d4a72c;
+    --text-muted: #5c6b85;
+     /* --navy: #0e2a52; */
+    --orange: #f2a900;
+    --orange-dark: #e0980a;
+  }
+  
+  .topbar {
+    position: relative;
+    height: 62px;
+    background: var(--navy);
+    overflow: hidden;
+  }
+
+  /* Orange block sits underneath, filling the right side */
+  .orange-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 34%;
+    background: linear-gradient(180deg, var(--orange) 0%, var(--orange-dark) 100%);
+    z-index: 1;
+  }
+
+  /* Navy sits on top, clipped so its right edge slants deep into the orange —
+     the "bulge": wide/high point near the top, pulling back sharply toward the bottom */
+  .navy-block {
+    position: absolute;
+    inset: 0;
+    background: var(--navy);
+    z-index: 2;
+    clip-path: polygon(0 0, 75% 0, 67% 100%, 0 100%);
+  }
+
+  .region-links {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding-left: 40px;
+    color: var(--gold);
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .region-links .sep {
+    color: rgba(255,255,255,0.4);
+    font-weight: 400;
+  }
+
+  .brand-message {
+    position: absolute;
+    right: 28px;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .globe-icon {
+    width: 34px;
+    height: 34px;
+    flex: 0 0 auto;
+  }
+
+  .globe-icon svg {
+    width: 100%;
+    height: 100%;
+    stroke: var(--navy);
+    fill: none;
+    stroke-width: 1.4;
+  }
+
+  .globe-icon circle.dot {
+    fill: var(--navy);
+    stroke: none;
+  }
+
+  .brand-message .text {
+    color: var(--navy);
+    font-size: 12.5px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 760px) {
+    .region-links { font-size: 10px; gap: 12px; padding-left: 18px; }
+    .brand-message .text { font-size: 10px; }
+    .navy-block { clip-path: polygon(0 0, 88% 0, 50% 100%, 0 100%); }
+    .orange-block { width: 42%; }
+  }
+
+  @media (max-width: 560px) {
+    .region-links span:nth-child(9),
+    .region-links span:nth-child(10) { display: none; } /* hide AMERICAS on very small screens */
+  }
+
+  .oil-gas {
+    background-image: url('assets/imgs/evening_refinery.png') !important;
+  }
+
+  @media (max-width: 556px) {
+      #base_oil {
+            height: 1400px !important;
+        }
+
+        #base_oil .base_oil_details {
+            height: 1400px !important;
+        }
+
+        .hero-details {
+            width: 100% !important;
+        }
+
+        #form-card {
+            top: 650px;
+            right: 60px !important;
+            width: 80% !important;
+        }
+  }

@@ -1,0 +1,164 @@
+.base-oil-section {
+    background-image: url('../imgs/base_oil.png') !important;
+}   
+   
+   .gl-p, .gl-g h6 {
+        color: #FFFAFA;
+    }
+
+    .icon {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: #00001C;
+        padding-bottom: 28px;
+        padding-top: 28px;
+        padding-left: 20px;
+        outline: 2px solid #FFEF00;
+    }
+
+    .icon .fa-gear, .fa-shield, .fa-handshake, .fa-clock {
+        color: #FFEF00 !important;
+        font-size: 3rem !important;
+    }
+
+    .fa-gear, .fa-chart-simple, .fa-globe {
+        color: #FFEF00 !important;
+        font-size: 3rem !important;
+    }
+
+    .means .fa-globe {
+        font-size: 22px !important;
+        margin-left: -5px;
+    }
+
+    .b_oil_icon {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #FFEF00;
+        padding-left: 10px !important;
+        padding-top: 14px !important;
+    }
+
+    .b_oil_icon .fa-globe, .b_oil_icon .fa-location-dot, .b_oil_icon .fa-phone, .b_oil_icon .fa-envelope {
+        color: #00001C !important;
+        font-size: 2rem !important;
+    }
+
+    .fa-circle-check {
+        color: #FFEF00 !important;
+    }
+
+    .title h4, .sec-goal h6 {
+        font-weight: bold;
+    }
+
+    .carding .p-2 {
+        background-color: #00001C;
+    }
+
+    .card h6 {
+        color: #fff;
+        font-weight: bold;
+    }
+    .base h6 {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .carding {
+        border-radius: 6px !important;
+    }
+
+    .base p {
+        color: #cfc4c4;
+    }
+
+    .base hr {
+        background: linear-gradient(#FFEF00, #ada207);
+        width: 100% !important;
+        height: 1px !important;
+        opacity: 1 !important;
+        border: none !important;
+        outline: none !important;
+        margin-bottom: 0 !important;
+    }
+
+    #form-card {
+        width: 40%; position: absolute; top: 50px; right: 100px;
+    }
+
+
+    #base_oil {
+        height: 100%;
+        background-image: url("assets/imgs/delivery3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        position: relative;
+    }
+
+    #base_oil .base_oil_details {
+        width: 50%;
+        background: linear-gradient(to right, 
+        #00001C 0%, 
+        #020236 40%,
+        rgba(10, 31, 68, 1) 50%,
+        rgba(10, 31, 68, 0.9) 60%,
+        rgba(10,31,68,0.7) 70%,
+        rgba(10,31,68,0.5) 80%,
+        rgba(10,31,68,0.3) 90%,
+        rgba(10,31,68,0) 100%
+        );
+        height: 100vh;
+        position: relative;
+    }
+
+    .base_h1 h1 {
+        font-size: 7rem;
+    }
+
+    .base_oil_details h2 {
+        color: #FFFAFA;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    footer .fa-globe {
+        color: #00001C !important;
+        font-size: 2rem !important;
+    }
+
+    @media(max-width:556px) {
+        .qlty {
+            margin-right: 25px !important;
+        }
+
+        .base .icoo {
+            display: block !important;
+        }
+
+        /* #base_oil {
+            height: 1400px !important;
+        } */
+
+        #base_oil .base_oil_details {
+            /* height: 1400px !important; */
+            width: 100% !important;
+        }
+
+        .hero-details {
+            width: 100% !important;
+        }
+
+        /* #form-card {
+            top: 650px;
+            right: 60px !important;
+            width: 80% !important;
+        } */
+
+        /* .base_h1 h1 {
+            font-size: 5rem !important;
+        } */
+    }

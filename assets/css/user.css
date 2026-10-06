@@ -1,0 +1,142 @@
+
+/* Account */
+
+.account .card {
+    background-color: rgb(190, 135, 244);
+    box-shadow: 2px 4px 10px rebeccapurple;
+}
+
+#account-form {
+    width: 50%;
+    margin: auto auto;
+    text-align: center;
+    /* padding: 20px; */
+}
+
+#account-form input {
+    margin: 5px auto;
+}
+
+.account-info #orders-btn, #Logout-btn {
+    color: var(--primary-color) !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.user-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    outline: 3px solid gold;
+    border: 3px solid var(--primary-color);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 4px 4px 4px rebeccapurple;
+    transition: all .5s ease;
+}
+
+.user-img img:hover {
+    transform: scale(1.05);
+}
+
+.update-pass #update-pass, #update-details {
+    padding: 7px 15px;
+    border-radius: 8px;
+    transition: all .6s;
+}
+
+.update-pass #update-pass:hover, #update-details:hover {
+    background-color: var(--primary-color);
+    color: var(--base-color);
+}
+
+/* Contact */
+
+.contact img {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin: 1rem 0;
+}
+
+.con-det {
+    font-weight: bolder !important;
+}
+
+.contact p {
+    font-style: italic;
+}
+
+
+
+/* Cart */
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart .product-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart th {
+    text-align: left;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: dodgerblue;
+}
+
+.cart td {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.cart td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.cart td input {
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+}
+
+.cart td a {
+    text-decoration: none;
+}
+
+.cart .remove-btn {
+    text-decoration: none;
+}
+
+.cart .product-info p {
+    margin: 5px;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-total table {
+    width: 100%;
+    max-width: 500px;
+    border-top: 3px solid dodgerblue;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+
