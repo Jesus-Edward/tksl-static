@@ -129,12 +129,12 @@ body {
 
     color: #ffffff;
 
-    background:
+    /* background:
         linear-gradient(
             135deg,
             #6366f1,
             #8b5cf6
-        );
+        ); */
 
 }
 
@@ -269,6 +269,14 @@ body.sidebar-collapsed .brand {
 
 }
 
+#main-icon {
+    background: none;
+    display: none !important;
+}
+
+body.sidebar-collapsed #main-icon {
+    display: block !important;
+}
 
 body.sidebar-collapsed .brand span,
 body.sidebar-collapsed .sidebar-label,

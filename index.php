@@ -79,15 +79,6 @@ $router->post('/admin/update/password', function() {
 $router->get('/admin/change/password', function() {
     (new AdminDashboardController())->change_password();
 });
-// $router->get('/dashboard', function() {
-//     (new UserDashboardController())->index();
-// });
-$router->post('/update/user/details', function() {
-    (new UserDashboardController())->update_user();
-});
-$router->post('/update/user/password', function() {
-    (new UserDashboardController())->update_password();
-});
 $router->get('/category/index', function() {
     (new CategoryController())->index();
 });
@@ -139,12 +130,6 @@ $router->get('/view-order/{id}', function($id) {
 $router->post('/update-status', function() {
     (new AdminOrderController())->updateStatus();
 });
-// $router->get('/dash', function() {
-//     require __DIR__ . "/views/dash.php";
-// });
-// $router->get('/modern-dash', function() {
-//     (new AdminDashboardController())->modern_index();
-// });
 
 
 $router->dispatch($_SERVER['REQUEST_URI']);

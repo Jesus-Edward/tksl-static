@@ -173,7 +173,7 @@ $user = mysqli_fetch_assoc($result);
                                 class="dropdown-item"
                                 href="<?= url('/admin/change/password') ?>"
                                 data-page="profile">
-                                <i class="bi bi-gear"></i>
+                                <i class="bi bi-shield-lock"></i>
                                 Change Password
                             </a>
 

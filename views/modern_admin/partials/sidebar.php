@@ -38,21 +38,16 @@ $sql = "SELECT COUNT(*) AS pending_orders
         <!-- Brand -->
 
         <div class="brand">
-
-            <div class="">
-                <!-- <i class="bi bi-grid-fill"></i> -->
-                 <img style="height: 50px; width:100%" src="<?= url('assets/imgs/logo-bg-removed.png') ?>" alt="">
+            
+            <div class="brand-icon" id="main-icon">
+                <img style="height: 50px; width:100%" src="<?= url('assets/imgs/small-logo-bg-removed.png') ?>" alt="">
             </div>
 
-            <!-- <span>
-                Trans Kontinental
-            </span> -->
+            <span>
+                <img style="height: 50px; width:100%" src="<?= url('assets/imgs/logo-bg-removed.png') ?>" alt="">
+            </span>
 
         </div>
-
-    <!-- <div class="brand brand-icon">
-        TKS
-    </div> -->
 
 
         <!-- Main -->
@@ -111,7 +106,8 @@ $sql = "SELECT COUNT(*) AS pending_orders
             
             <form action="<?= url('/logout') ?>" method="POST">
                 <button
-                    class="nav-link text-danger text-center"
+                    style="background: #f4f3ff;"
+                    class="nav-link text-danger text-center w-100"
                     type="submit"
                     name="Logout-btn">
                     <i class="bi bi-box-arrow-right"></i>
