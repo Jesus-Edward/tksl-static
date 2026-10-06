@@ -42,8 +42,7 @@ $user = mysqli_fetch_assoc($result);
 
     <link rel="stylesheet" href="<?= url('assets/dash/styles.css') ?>">
     <link rel="stylesheet" href="<?= url('assets/dash/admin-details.css') ?>">
-    <link rel="shortcut icon" href="<?= url('assets/imgs/small-logo-bg-removed.png') ?>" />
-
+    <link rel="shortcut icon" href="<?= url('assets/imgs/small-logo-bg-removed.png') ?>" type="image/x-icon">
 
 </head>
 
