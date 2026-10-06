@@ -1,3 +1,10 @@
+<?php
+// dd(__DIR__);
+// require __DIR__ . "/../../middlewares/AuthenticatedUser.php";
+
+requiredRole('admin');
+?>
+
 <div class="mb-4">
 
                 <h3 class="page-title">

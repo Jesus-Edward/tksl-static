@@ -75,7 +75,7 @@ protectAuthPage();
                   </div>
                   <div class="my-2 d-flex justify-content-between align-items-center">
                   </div>
-                  <div class="text-center mt-4 font-weight-light"> Already have an account? <a href="<?= url('/admin/master/login') ?>" class="text-primary">Login</a>
+                  <div class="text-center mt-4 font-weight-light"> Already have an account? <a href="<?= url('/admin/master/admin/master/login') ?>" class="text-primary">Login</a>
                   </div>
                 </form>
               </div>

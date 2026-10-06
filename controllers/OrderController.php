@@ -31,7 +31,7 @@ class OrderController
             // if (!isset($_SESSION['user_id'])) {
             //     $errors[] = "Please login to make an order";
             //     $_SESSION['errors'] = $errors;
-            //     header("Location: " . url('/login'));
+            //     header("Location: " . url('/admin/master/login'));
             //     exit();
             // }
 

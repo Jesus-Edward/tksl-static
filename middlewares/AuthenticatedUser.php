@@ -3,7 +3,7 @@ $errors = [];
 
 function requireLogin() {
     if (!isset($_SESSION['user_id'])) {
-        header("Location: " . url('/login'));
+        header("Location: " . url('/admin/master/login'));
         $errors[] = "Please login first.";
         $_SESSION['errors'] = $errors;
         exit();

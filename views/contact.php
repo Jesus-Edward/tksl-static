@@ -54,7 +54,7 @@
                 <div class="d-flex get_in_touch">
                     <!-- <?php if (!isset($_SESSION['user_id'])) { ?>
                         <div class="d-flex" style="margin-right: 2px;">
-                            <a href="<?= url('/login') ?>" class="btn btn-warning" style="margin-right: 4px;">Login</a>
+                            <a href="<?= url('/admin/master/login') ?>" class="btn btn-warning" style="margin-right: 4px;">Login</a>
                             <a href="<?= url('/register') ?>" class="btn btn-success">Register</a>
                         </div>
                     <?php } else { ?>

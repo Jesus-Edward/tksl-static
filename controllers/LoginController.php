@@ -13,7 +13,7 @@
             exit();
         }
 
-        verify_csrf("/login");
+        verify_csrf("/admin/master/login");
 
         $stmt = mysqli_prepare($conn, "SELECT * FROM users WHERE email = ?");
         mysqli_stmt_bind_param($stmt, 's', $email);
