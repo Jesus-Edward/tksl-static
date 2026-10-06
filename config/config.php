@@ -18,7 +18,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'web3forms_key' => '36de35eb-0028-4a45-939d-bb97ca774b07',
+    'web3forms_key' => '',
     
     /*
     |--------------------------------------------------------------------------
@@ -26,8 +26,8 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'recaptcha_v2_site_key' => '6LfsEtctAAAAAIsdMtaU1ZHIk4vF5bwfjdMLqUKj',
-    'recaptcha_v2_secret_key' => '6LfsEtctAAAAAICeSXjjlNGVs14HWZzGA-atSIQo',
+    'recaptcha_v2_site_key' => '',
+    'recaptcha_v2_secret_key' => '',
 
 
     /*
@@ -36,12 +36,12 @@ return [
     |--------------------------------------------------------------------------
     */
     
-    'recaptcha_site_key' => '6LcAmcAtAAAAABu--EFntdyieQt4TDenNw0yw5Eg',
-    'google_api_key' => 'AIzaSyBcGb_bF2hlSDgo9a2puD2QOkeQHq_F6MQ',
+    'recaptcha_site_key' => '',
+    'google_api_key' => '',
     
-    'google_project_id' => 'project-1eec5a5c-fbd6-4636-ba6',
+    'google_project_id' => '',
     
-    'recaptcha_min_score' => 0.5,
+    'recaptcha_min_score' => '',
     /*
     |--------------------------------------------------------------------------
     | Rate limiting
@@ -59,7 +59,7 @@ return [
     |
     */
 
-    'company_email' => 'thompsonedward7life@gmail.com',
+    'company_email' => '',
     'company_name' => 'Trans Kontinental Services Ltd',
 
     /*
@@ -68,13 +68,6 @@ return [
     |--------------------------------------------------------------------------
     |
     */
-
-    'db_name' => 'trans-kontinental',
-    'password' => '',
-    'user' => 'root',
-    'host' => '127.0.0.1',
-
-
 
     'rate_limit_max_attempts' => 5,
 
