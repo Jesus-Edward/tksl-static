@@ -62,9 +62,9 @@
                             Continue Shopping
                         </a>
 
-                        <a href="<?= url('/dashboard') ?>" class="btn btn-outline-secondary px-4">
+                        <!-- <a href="<?= url('/dashboard') ?>" class="btn btn-outline-secondary px-4">
                             View My Orders
-                        </a>
+                        </a> -->
                     </div>
 
                 </div>
